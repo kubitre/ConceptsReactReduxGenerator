@@ -11,6 +11,7 @@ I currently have 2 different approaches for codogenerate jsx and js code
 # description of the problem
 React, a modern front-end developer, spends a lot of time creating basic skeletons of containers and components. I have ideas how this problem developer can resolve. He will be able to use one of the above approaches to describe containers and data for them. both approaches will require a special tool from the developer, the working mechanisms of which will be described later. 
 In Native Declaration developer should use yaml syntax for declaring containers, datas, actions. It will be generate new files in you root project dir.
+In Transporter Language developer should use tran-lang to write his containers and transpile by tran-lang into sources
 
 # Stack technologies:
 - React
