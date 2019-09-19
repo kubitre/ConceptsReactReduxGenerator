@@ -7,6 +7,7 @@ I currently have 2 different approaches for codogenerate jsx and js code
 - [Native Declaration](#native-declaration)
   - [Output Generated of Native way:](#output-generated-of-native-way)
 - [Transporter Language](#transporter-language)
+  - [Output of transpilation](#output-of-transpilation)
 
 # description of the problem
 React, a modern front-end developer, spends a lot of time creating basic skeletons of containers and components. I have ideas how this problem developer can resolve. He will be able to use one of the above approaches to describe containers and data for them. both approaches will require a special tool from the developer, the working mechanisms of which will be described later. 
@@ -228,6 +229,8 @@ container MyContainer1 extends class.Container {
     }
 }
 ```
+
+## Output of transpilation
 After use generator, you should get this files:
 ```
 ../containers/MyContainer1:
